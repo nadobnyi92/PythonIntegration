@@ -1,6 +1,3 @@
-#include <vector>
-#include <ctime>
-
 #include <boost/python.hpp>
 
 using namespace boost::python;
@@ -36,8 +33,5 @@ BOOST_PYTHON_MODULE( simple_class )
         .def( "name", &CppObject::name )
         .def_readwrite( "value", &CppObject::mDoubleField )
         .add_property( "property", &CppObject::getField, &CppObject::getField );
-
-    class_<ImplObject, bases<CppObject> >( "ImplObject" );
-
 }
 
