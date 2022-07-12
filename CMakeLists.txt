@@ -9,11 +9,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Boost REQUIRED python)
 find_package(Python3 COMPONENTS Development REQUIRED)
 
-add_subdirectory(BoostPython/HelloWorld)
-add_subdirectory(BoostPython/SimpleClass)
-add_subdirectory(BoostPython/ClassInheritance)
-add_subdirectory(BoostPython/ComplexNumber)
-add_subdirectory(BoostPython/CallPolicy)
+add_subdirectory(BoostPython/01_HelloWorld)
+add_subdirectory(BoostPython/02_SimpleClass)
+add_subdirectory(BoostPython/03_ComplexNumber)
+add_subdirectory(BoostPython/04_ClassInheritance)
+add_subdirectory(BoostPython/05_CallPolicy)
+add_subdirectory(BoostPython/06_embedding)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json ${CMAKE_SOURCE_DIR}/compile_commands.json SYMBOLIC)
 
