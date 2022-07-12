@@ -13,6 +13,7 @@ add_subdirectory(BoostPython/HelloWorld)
 add_subdirectory(BoostPython/SimpleClass)
 add_subdirectory(BoostPython/ClassInheritance)
 add_subdirectory(BoostPython/ComplexNumber)
+add_subdirectory(BoostPython/CallPolicy)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json ${CMAKE_SOURCE_DIR}/compile_commands.json SYMBOLIC)
 
