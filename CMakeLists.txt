@@ -18,6 +18,7 @@ add_subdirectory(BoostPython/06_overloading)
 add_subdirectory(BoostPython/06_embedding)
 
 add_subdirectory(PyBind/01_HelloWorld)
+add_subdirectory(PyBind/02_SimpleClass)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json ${CMAKE_SOURCE_DIR}/compile_commands.json SYMBOLIC)
 
