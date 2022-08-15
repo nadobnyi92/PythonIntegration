@@ -24,3 +24,4 @@ add_subdirectory(PyBind/04_ClassInheritance)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json ${CMAKE_SOURCE_DIR}/compile_commands.json SYMBOLIC)
 
+add_subdirectory(PyBind/05_CallPolicy)
