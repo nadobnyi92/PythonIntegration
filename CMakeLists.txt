@@ -21,8 +21,9 @@ add_subdirectory(PyBind/01_HelloWorld)
 add_subdirectory(PyBind/02_SimpleClass)
 add_subdirectory(PyBind/03_ComplexNumber)
 add_subdirectory(PyBind/04_ClassInheritance)
+add_subdirectory(PyBind/05_CallPolicy)
+add_subdirectory(PyBind/06_overloading)
+add_subdirectory(PyBind/07_exception)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json ${CMAKE_SOURCE_DIR}/compile_commands.json SYMBOLIC)
 
-add_subdirectory(PyBind/05_CallPolicy)
-add_subdirectory(PyBind/06_overloading)
