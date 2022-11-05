@@ -7,7 +7,7 @@ if __name__ == "__main__":
     module = Extension("simple_wrapper",
                        library_dirs=['.'],
                        runtime_library_dirs=['.'],
-                       libraries=['simple'],
+                       libraries=['libpython_simple'],
                        sources = ["simple_wrapper.cpp"],
                        )
     setup(name="simmple_module",

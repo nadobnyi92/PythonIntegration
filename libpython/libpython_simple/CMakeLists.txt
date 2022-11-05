@@ -1,4 +1,4 @@
-project(simple)
+project(libpython_simple)
 
 set(SRC simple_library.cpp)
 add_library(${PROJECT_NAME} SHARED ${SRC})

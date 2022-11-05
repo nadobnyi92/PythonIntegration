@@ -6,10 +6,13 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_subdirectory(CPython)
-
 find_package(Python3 REQUIRED COMPONENTS Interpreter Development)
 find_package(Boost REQUIRED python)
+
+add_subdirectory(CPython)
+
+add_subdirectory(libpython/libpython_simple)
+add_subdirectory(libpython/libpython_embedding)
 
 add_subdirectory(BoostPython/01_HelloWorld)
 add_subdirectory(BoostPython/02_SimpleClass)
