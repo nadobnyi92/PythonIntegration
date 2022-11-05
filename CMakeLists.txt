@@ -29,6 +29,7 @@ add_subdirectory(PyBind/04_ClassInheritance)
 add_subdirectory(PyBind/05_CallPolicy)
 add_subdirectory(PyBind/06_overloading)
 add_subdirectory(PyBind/07_exception)
+add_subdirectory(PyBind/08_embedding)
 
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json ${CMAKE_SOURCE_DIR}/compile_commands.json SYMBOLIC)
 
